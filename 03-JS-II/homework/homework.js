@@ -162,10 +162,10 @@ function esVerdadero(valor){
   //Escribe una función que reciba un valor booleano y retorne “Soy verdadero” 
   //si su valor es true y “Soy falso” si su valor es false.
   //Escribe tu código aquí
-  if(valor = false){
+  if(valor == 'false'){
     return 'Soy falso';
   }
-  if(valor = true){
+  if(valor == 'true'){
     return 'Soy verdadero';
   }
 }
@@ -187,7 +187,7 @@ function tieneTresDigitos(numero){
   //Escribe tu código aquí
   let num = 0;
   num = numero;
-  if(num.length == 3){
+  if(num.length === 3){
     return true;
   }
   return false;
