@@ -171,7 +171,7 @@ function tablaDelSeis(){
   //Escribe tu código aquí 
   let tablaDelSeis = [];  
   for(let i = 0; i<=10; i++){
-    tablaDelSeis.push(6*i);
+    //tablaDelSeis.push(6*i);
   }
   return tablaDelSeis;
 }
