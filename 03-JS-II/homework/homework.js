@@ -162,6 +162,7 @@ function esPrimo(numero) {
   if(numero % numero == 0 && numero % 1 == 0){
     return true;
   }
+  return false;
 }
 
 function esVerdadero(valor){
