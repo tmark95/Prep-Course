@@ -165,18 +165,20 @@ function esVerdadero(valor){
   if(valor = true){
     return 'Soy verdadero';
   }
-  return 'Soy falso';
+  if(valor = false){
+    return 'Soy falso';
+  }
 }
 
 function tablaDelSeis(){
   //Escribe una función que muestre la tabla de multiplicar del 6 (del 0 al 60).
   //La función devuelve un array con los resultados de la tabla de multiplicar del 6 en orden creciente.
   //Escribe tu código aquí 
-  //let tablaDelSeis = [];  
+  let tablaDelSeis = [];  
   //for(let i = 0; i<=10; i++){
     //tablaDelSeis.push(6*i);
   //}
-  //return tablaDelSeis;
+  return tablaDelSeis;
 }
 
 function tieneTresDigitos(numero){
