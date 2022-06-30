@@ -159,12 +159,12 @@ function esPrimo(numero) {
   if(numero == 0 || numero == 1) {
     return false;
   }
+  if(numero % 2 == 0 && numero != 2 || numero % 3 == 0 && numero != 3){
+    return false;
+  }
   if(numero % numero == 0 && numero % 1 == 0){
     return true;
   } 
-  if(numero % 2 == 0 && numero % 3 == 0 && numero != 2 && numero != 3){
-    return false;
-  }
   
 }
 
