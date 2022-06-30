@@ -164,8 +164,7 @@ function esVerdadero(valor){
   //Escribe tu código aquí
   if(valor = true){
     return 'Soy verdadero';
-  }
-  if(valor = false){
+  } else if(valor = false){
     return 'Soy falso';
   }
 }
@@ -175,9 +174,10 @@ function tablaDelSeis(){
   //La función devuelve un array con los resultados de la tabla de multiplicar del 6 en orden creciente.
   //Escribe tu código aquí 
   let tablaDelSeis = [];  
-  //for(let i = 0; i<=10; i++){
-    //tablaDelSeis.push(6*i);
-  //}
+  for(let i = 0; i<=10;){
+    tablaDelSeis.push(6*i);
+    i++;
+  }
   return tablaDelSeis;
 }
 
