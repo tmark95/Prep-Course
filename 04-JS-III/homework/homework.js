@@ -26,7 +26,8 @@ function incrementarPorUno(array) {
   // Aumenta cada entero por 1
   // y devuelve el array
   // Tu código:
-  
+  const newArray = array.map(num => num + 1);
+  return newArray;
 }
 
 
@@ -61,10 +62,6 @@ function arrayContiene(array, elemento) {
   // Comprueba si el elemento existe dentro de "array"
   // Devuelve "true" si está, o "false" si no está
   // Tu código:
-  if(elemento in array){
-    return true;
-  }
-  return false;
 }
 
 
