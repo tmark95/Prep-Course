@@ -32,6 +32,7 @@ function incrementarPorUno(array) {
   for(var i = 0; i < array.length; i++){
     myArray[i]++;
   }
+  return myArray;
 }
 
 
