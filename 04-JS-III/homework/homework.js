@@ -26,8 +26,12 @@ function incrementarPorUno(array) {
   // Aumenta cada entero por 1
   // y devuelve el array
   // Tu código:
-  const newArray = array.map(num => num + 1);
-  return newArray;
+  //const newArray = array.map(num => num + 1);
+  //return newArray;
+  let myArray = array;
+  for(var i = 0; i < array.length; i++){
+    myArray[i]++;
+  }
 }
 
 
@@ -45,7 +49,7 @@ function agregarItemAlComienzoDelArray(array, elemento) {
   // y devuelve el array
   // Pista: usa el método `.unshift`
   // Tu código:
-  return array.unshift(elemento);
+  
 }
 
 
